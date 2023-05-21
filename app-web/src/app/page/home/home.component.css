@@ -1,0 +1,59 @@
+.banner{
+    background-image: url(../../../assets/group-friends-eating-together-scaled.jpg);
+    height: 610px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.content{
+    top: 18%;
+    left: 20%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.content h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+.content a{
+    text-decoration: none;
+    background-color: beige;
+    color: blue;
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.content a:hover{
+    background-color: rgb(192, 192, 170);
+    color: blue;
+    transition: all 0.5s;
+}
+
+.container h1{
+    color: white;
+}
+
+.box{
+    background-color: rgb(66, 60, 60);
+    padding: 10px 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.box h1{
+    color: rgb(192, 192, 170);
+    font-size: 30px;
+}
+
+.box p{
+    color: rgb(192, 192, 170);
+    font-size: 20px;
+    font-style: italic;
+}
