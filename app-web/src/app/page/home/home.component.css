@@ -1,5 +1,5 @@
 .banner{
-    background-image: url(../../../assets/group-friends-eating-together-scaled.jpg);
+    background-image: url(../../../assets/group-friends-eating-together-scaledblur.jpg);
     height: 610px;
     background-position: center top;
     background-size: cover;
@@ -45,6 +45,7 @@
     padding: 10px 10px;
     border-radius: 7px;
     text-align: center;
+
 }
 
 .box h1{
@@ -56,4 +57,52 @@
     color: rgb(192, 192, 170);
     font-size: 20px;
     font-style: italic;
+}
+
+.foodbox{
+    padding: 10px 5px;
+    background-color: rgb(66, 60, 60);
+    margin-bottom: 30px;
+    border-radius: 12px;
+    height: 90%;
+}
+
+.foodbox img{
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+}
+
+.foodbox h1{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(192, 192, 170);
+    text-align: center;
+}
+
+.foodbox p{
+    color: white;
+}
+
+.espaco{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    text-align: center;    
+}
+
+
+.maisopcao{
+    text-decoration: none;
+    background-color: beige;
+    color: blue;
+    padding: 10px 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.maisopcao:hover{
+    background-color: rgb(192, 192, 170);
+    color: blue;
+    transition: all 0.5s;
 }
